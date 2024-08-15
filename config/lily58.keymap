@@ -33,7 +33,7 @@
         };
 
         caps_lock {
-            bindings = <&caps_lock>;
+            bindings = <&kp CAPSLOCK>;
             key-positions = <&kp C>, <&kp LSHIFT>, <&kp TAB>;
         };
     };
