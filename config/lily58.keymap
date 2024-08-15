@@ -14,12 +14,12 @@
 
         bt_1 {
             bindings = <&bt BT_SEL 0>;
-            key-positions = <53 36 51 1 41 17>;
+            key-positions = <36 51 53 41 17 1>;
         };
 
         bt_2 {
             bindings = <&bt BT_SEL 1>;
-            key-positions = <53 36 51 2 41 17>;
+            key-positions = <36 51 53 41 17 2>;
         };
 
         bt_3 {
