@@ -34,7 +34,7 @@
 
         caps_lock {
             bindings = <&kp CAPSLOCK>;
-            key-positions = <&kp C>, <&kp LSHIFT>, <&kp TAB>;
+            key-positions = <24>, <24>, <24>;
         };
     };
 
