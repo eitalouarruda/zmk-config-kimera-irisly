@@ -31,6 +31,11 @@
             bindings = <&bt BT_CLR_ALL>;
             key-positions = <36 51 53 41 17>;
         };
+
+        caps_lock {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <36 24 12>;
+        };
     };
 
     keymap {
