@@ -24,12 +24,12 @@
 
         bt_3 {
             bindings = <&bt BT_SEL 1>;
-            key-positions = <53 36 51 3 41 17>;
+            key-positions = <36 51 53 41 17 3 39>;
         };
 
         bt_clear {
             bindings = <&bt BT_CLR_ALL>;
-            key-positions = <53 36 51 41 17 39>;
+            key-positions = <36 51 53 41 17>;
         };
     };
 
