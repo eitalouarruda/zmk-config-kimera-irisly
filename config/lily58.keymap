@@ -44,7 +44,7 @@
         };
 
         warpd_shortcut {
-            bindings = <&kp LS(LA(LC(M)))>;
+            bindings = <&kp LS(LC(LG(M)))>;
             key-positions = <53 54>;
         };
     };
