@@ -61,8 +61,8 @@
             bindings = <
 &trans  &kp F1            &kp F2  &kp F3  &kp F4          &kp F5                                             &kp F6            &kp F7     &kp F8          &kp F9     &kp F10          &kp F12
 &trans  &none             &none   &none   &mkp MB2        &kp GRAVE                                          &kp SINGLE_QUOTE  &kp PG_UP  &kp UP_ARROW    &none      &kp PRINTSCREEN  &kp F11
-&trans  &msc SCROLL_UP    &none   &none   &none           &mkp MB1                                           &kp HOME          &kp LEFT   &kp DOWN_ARROW  &kp RIGHT  &kp INSERT       &kp DELETE
-&trans  &msc SCROLL_DOWN  &none   &none   &msc MOVE_LEFT  &msc SCROLL_RIGHT  &kp K_PREV    &kp K_PLAY_PAUSE  &kp END           &kp PG_DN  &kp C_VOL_DN    &none      &none            &none
+&trans  &mwh SCROLL_UP    &none   &none   &none           &mkp MB1                                           &kp HOME          &kp LEFT   &kp DOWN_ARROW  &kp RIGHT  &kp INSERT       &kp DELETE
+&trans  &mwh SCROLL_DOWN  &none   &none   &mwh MOVE_LEFT  &mwh SCROLL_RIGHT  &kp K_PREV    &kp K_PLAY_PAUSE  &kp END           &kp PG_DN  &kp C_VOL_DN    &none      &none            &none
                                   &none   &trans          &trans             &trans        &trans            &kp C_VOLUME_UP   &trans     &none
             >;
         };
