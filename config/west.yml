@@ -5,15 +5,9 @@ manifest:
     - name: krikun98
       url-base: https://github.com/krikun98
   projects:
-#  Original zmk repo
-#    - name: zmk
-#      remote: zmkfirmware
-#      revision: krikun98:mouse-pr
-#      import: app/west.yml
-# Mouse movements PR
     - name: zmk
-      remote: krikun98
-      revision: mouse-pr 
-      import: app/west.yml      
+      remote: zmkfirmware
+      revision: krikun98:mouse-pr
+      import: app/west.yml    
   self:
     path: config
