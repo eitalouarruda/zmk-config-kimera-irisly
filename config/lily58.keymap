@@ -49,6 +49,17 @@
         };
     };
 
+    behaviors {
+        compatible = "zmk,behaviors";
+
+        sleep_and_send {
+            compatible = "zmk,behavior";
+            label = "Sleep and Send Windows+1";
+            bindings = <&kp LALT &kp LCTRL>;  // Send Alt + Ctrl
+            on-release = <&behavior SLEEP_MS(300) &kp LWIN &kp 1>; // Wait for 1 second and send Windows + 1
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
