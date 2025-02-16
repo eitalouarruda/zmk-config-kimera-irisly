@@ -1,0 +1,7 @@
+/ {
+    // Optional: Configure input processors for mouse behaviors
+    mkp_input_listener {
+        compatible = "zmk,input-listener";
+        input-processors = <&zip_temp_layer 2 2000>;
+    };
+};
