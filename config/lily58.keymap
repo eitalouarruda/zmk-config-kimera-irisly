@@ -57,12 +57,6 @@
             bindings = <&kp UC(0x00E7)>; // Unicode for 'ç'
             key-positions = <53 54>;    // Replace with the positions of &mo 1 and ; keys
         };
-
-        send_cedilla_upper {
-            bindings = <&kp UC(0x00C7)>; // Unicode for 'Ç'
-            key-positions = <53 54>;    // Replace with the positions of &mo 1 and ; keys
-            modifiers = <MOD_LSFT>;     // Trigger only when Left Shift is held
-        };
     };
 
     keymap {
