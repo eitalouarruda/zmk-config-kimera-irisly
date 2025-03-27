@@ -61,7 +61,7 @@
         send_cedilla_upper {
             bindings = <&kp UC(0x00C7)>; // Unicode for 'Ç'
             key-positions = <53 54>;    // Replace with the positions of &mo 1 and ; keys
-            modifiers = <MOD_LSFT MOD_RSFT>; // Trigger only when Shift is held
+            modifiers = <MOD_LSFT>;     // Trigger only when Left Shift is held
         };
     };
 
