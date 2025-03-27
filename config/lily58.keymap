@@ -52,10 +52,9 @@
             key-positions = <53 54>;
         };
 
-        // Define a combo for sending 'ç'
         send_cedilla {
-            bindings = <&kp UC(0x00E7)>; // Unicode for 'ç'
-            key-positions = <53 54>;    // Replace with the positions of &mo 1 and ; keys
+            bindings = <&str "ç">; // Sends the string "ç"
+            key-positions = <53 54>; // Replace with the positions of &mo 1 and ; keys
         };
     };
 
