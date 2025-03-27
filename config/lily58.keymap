@@ -61,9 +61,8 @@
         send_cedilla_upper {
             bindings = <&kp UC(0x00C7)>; // Unicode for 'Ç'
             key-positions = <53 54>;    // Replace with the positions of &mo 1 and ; keys
-            modifiers = <(MOD_LSFT | MOD_RSFT)>; // Trigger only when Shift is held
+            modifiers = <MOD_LSFT MOD_RSFT>; // Trigger only when Shift is held
         };
-    };
     };
 
     keymap {
@@ -83,8 +82,8 @@
             bindings = <
 &trans  &kp F1          &kp F2          &kp F3          &kp F4           &kp F5                                     &kp F6            &kp F7     &kp F8          &kp F9     &kp F10          &kp F12
 &trans  &none           &none           &mmv MOVE_UP    &mkp MB2         &kp GRAVE                                  &kp SINGLE_QUOTE  &kp PG_UP  &kp UP_ARROW    &none      &kp PRINTSCREEN  &kp F11
-&trans  &msc SCRL_UP    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp MB1                                   &kp HOME          &kp LEFT   &kp DOWN_ARROW  &kp RIGHT  &kp INSERT       &kp DELETE
-&trans  &msc SCRL_DOWN  &none           &none           &none            &none      &kp K_PREV    &kp K_PLAY_PAUSE  &kp END           &kp PG_DN  &kp C_VOL_DN    &none      &none            &none
+&trans  &msc SCRL_UP    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp MB1                                   &kp HOME          &kp LEFT   &kp DOWN_ARROW  &kp RIGHT  &none            &kp DELETE
+&trans  &msc SCRL_DOWN  &none           &none           &none            &none      &kp K_PREV    &kp K_PLAY_PAUSE  &kp END           &kp PG_DN  &kp C_VOL_DN    &none      &none            &kp INSERT
                                         &none           &trans           &trans     &trans        &trans            &kp C_VOLUME_UP   &trans     &none
             >;
         };
